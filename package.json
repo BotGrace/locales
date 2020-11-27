@@ -6,7 +6,5 @@
   "repository": "https://github.com/Dream-cake/Grace-locales.git",
   "author": "Spooder",
   "license": "MIT",
-  "dependencies": {
-    "fs": "^0.0.1-security"
-  }
+  "dependencies": {}
 }
