@@ -1,0 +1,33 @@
+{
+    "website": {
+        "dashboard": {
+            "selector": {
+                "afternoon": "Good Afternoon, Please choose a server.",
+                "morning": "Good Morning, Please choose a server."
+            },
+            "sidebar": {
+                "main": "Main",
+                "mod": "Moderation",
+                "log": "Logging",
+                "level": "Leveling",
+                "starboard": "Starboard",
+                "notifications": "Notifications",
+                "twitch": "Twitch Notification",
+                "youtube": "Youtube Notification",
+                "music": "Music",
+                "musicSettings": "Music Settings",
+                "queue": "Queue List",
+                "customActions": "Custom Actions",
+                "leaderboard": "Leaderboard",
+                "premium": {
+                    "no": "Buy Premium",
+                    "yes": "Buy Premium Again!"
+                },
+                "goBack": "Go Back"
+            }
+        }
+    },
+    "bot": {
+        "hello": "Hello World!"
+    }
+}
