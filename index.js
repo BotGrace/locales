@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-'use strict';
 files = require("./allowedLangs.json");
 let messages = {website: {}, bot: {}};
 for (i = 0; i < files.length; i++) {
