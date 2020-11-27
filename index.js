@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 files = require("./allowedLangs.json");
 let messages = {website: {}, bot: {}};
 for (i = 0; i < files.length; i++) {
