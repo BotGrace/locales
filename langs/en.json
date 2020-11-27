@@ -25,6 +25,52 @@
                 },
                 "goBack": "Go Back"
             }
+        },
+        "footer": {
+            "vote": "Vote",
+            "invite": "Invite",
+            "premium": "Premium",
+            "donors": "Donors",
+            "tos": "Terms Of Service",
+            "pp": "Privacy Policy",
+            "copyright": "Copyright © 2019-{0} Grace Bot. All rights reserved.",
+            "affiliated": "Affiliated with {0}. Managed with ❤️ in the USA!",
+            "notAff": "Not affiliated with Discord Inc, or any other services used.",
+            "api": "Api: v{0}",
+            "system": "System: v{0}",
+            "systemName": "System Name: {0}",
+            "avgTime": "Avg Times: {0}"
+        },
+        "home": {
+            "name": "Grace Bot",
+            "i3": "Making Discord Fun Again <br>For <a class=\"mainTextColor\">{0}</a> users and <a class=\"mainTextColor\">{1}</a> servers!",
+            "i5": "Utilize Grace to make your Discord guild funner, safer and smarter, all with a fully customizable dashboard!"
+        },
+        "logout": {
+            "i3": "Were currently logging you out!",
+            "i5": "You will be redirected once logout is finished!"
+        },
+        "features": {
+            "twitch": {
+                "title": "Twitch Notifications",
+                "desc": "Want to tell your viewers or community members when you or your favorite creator goes live? With Grace, you can easily send alert notifications to your users within minutes!"
+            },
+            "reaction": {
+                "title": "Reaction Roles",
+                "desc": "Give your community a new modern feel with Reaction Roles! With Grace, quickly let users give themselves roles based on the emoji selected! And loads more options!"
+            },
+            "xp": {
+                "title": "Xp Leveling",
+                "desc": "Configure Grace to enchant your community members and let your members climb to the top with XP Leveling! Reward your most active members with free and unlimited role rewards and online"
+            },
+            "music": {
+                "title": "HD Music",
+                "desc": "Jam With your friends! Play music in your voice channels for free! Listen to Twitch, YouTube, and more, for how long as you want!"
+            },
+            "communicate": {
+                "title": "Communicate with your community!",
+                "desc": "Want to ask your community questions? With Grace quickly use polls, announcements, and reminders to interact with your community!"
+            }
         }
     },
     "bot": {
