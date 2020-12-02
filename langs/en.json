@@ -24,7 +24,48 @@
                     "yes": "Buy Premium Again!"
                 },
                 "goBack": "Go Back"
+            },
+            "topCards": {
+                "member": "Member Count",
+                "access": "Access Status",
+                "role": "Role Count",
+                "channel": "Channel Count"
+            },
+            "main": {
+                "card1": {
+                    "name": "Change Bot Configuration",
+                    "input1Label": "Prefix",
+                    "input1PlaceHolder": "Enter Prefix",
+                    "input2Label": "Bot Nickname",
+                    "input2PlaceHolder": "Enter Bot Nickname"
+                }
             }
+        },
+        "navBar": {
+            "name": "Grace",
+            "support": "Support",
+            "invite": "Invite",
+            "vote": "Vote",
+            "premium": "Premium",
+            "donors": "Donors",
+            "features": "features",
+            "docs": "Docs",
+            "botDocs": "Bot Docs",
+            "WebsiteDocs": "Website Docs",
+            "Hub Docs": "Hub Docs",
+            "API Docs": "API Docs",
+            "other": "Other",
+            "botStats": "Bot Stats",
+            "redeem": "Redeem Code",
+            "levelCal": "Level Calculator",
+            "trello": "Trello",
+            "debugConsole": "DEBUG CONSOLE",
+            "login": "Login",
+            "profile": "Profile",
+            "uploadUserBackup": "Upload User Backup",
+            "userDataDump": "User Data Dump",
+            "dashboard": "Dashboard",
+            "logout": "Logout"
         },
         "footer": {
             "vote": "Vote",
