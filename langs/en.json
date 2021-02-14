@@ -33,11 +33,18 @@
             },
             "main": {
                 "card1": {
-                    "name": "Change Bot Configuration",
+                    "name": "Configurations",
                     "input1Label": "Prefix",
                     "input1PlaceHolder": "Enter Prefix",
                     "input2Label": "Bot Nickname",
                     "input2PlaceHolder": "Enter Bot Nickname"
+                },
+                "card2": {
+                    "name": "Extra Configurations",
+                    "button1Label": "NSFW Status",
+                    "button1Enable": "Enable NSFW",
+                    "button1Disable": "Disable NSFW",
+                    "input1Label": "Guild Color"
                 }
             }
         },

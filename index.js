@@ -6,6 +6,6 @@ for (i = 0; i < files.length; i++) {
     if (file.bot) messages.bot[files[i].split('.')[0]] = file.bot;
 }
 
+exports.allowLangs = files.map(g => g.replace(".json", ""));
 exports.website = messages.website;
-
 exports.bot = messages.bot;
