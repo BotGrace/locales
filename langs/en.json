@@ -6,7 +6,7 @@
                 "morning": "Good Morning, Please choose a server."
             },
             "sidebar": {
-                "interactionsettings": "Default Settings",
+                "interactionsettings": "Settings",
                 "main": "User Settings",
                 "customize": "Extra Settings",
                 "mod": "Moderation",
