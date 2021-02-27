@@ -6,7 +6,9 @@
                 "morning": "Good Morning, Please choose a server."
             },
             "sidebar": {
-                "main": "Main",
+                "interactionsettings": "Interaction",
+                "main": "User Interactions",
+                "customize": "Advanced Settings",
                 "mod": "Moderation",
                 "log": "Logging",
                 "level": "Leveling",
