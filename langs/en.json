@@ -23,6 +23,7 @@
                 "queue": "Queue List",
                 "customActions": "Custom Actions",
                 "leaderboard": "Leaderboard",
+                "reddit": "Reddit",
                 "premium": {
                     "no": "Buy Premium",
                     "yes": "Buy Premium Again!"
