@@ -1,6 +1,6 @@
 {
   "name": "locales",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "The Grace locales",
   "main": "index.js",
   "repository": "https://github.com/Dream-cake/Grace-locales.git",
