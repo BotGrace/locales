@@ -104,9 +104,9 @@
             "i5": "You will be redirected once logout is finished!"
         },
         "features": {
-            "twitch": {
-                "title": "Twitch Notifications",
-                "desc": "Want to tell your viewers or community members when you or your favorite creator goes live? With Grace, you can easily send alert notifications to your users within minutes!"
+            "notifications": {
+                "title": "Notification System",
+                "desc": "Want to get updates for when your favorite creators upload, stream, and post content? With Grace, you can easily send notifications to your community within minutes!"
             },
             "reaction": {
                 "title": "Reaction Roles",
