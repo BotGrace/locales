@@ -127,6 +127,10 @@
         }
     },
     "bot": {
-        "hello": "Hello World!"
+        "commands": {
+            "hello": {
+                "respond": "Hello!"
+            }
+        }
     }
 }
