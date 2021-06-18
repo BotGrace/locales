@@ -1,136 +1,143 @@
 {
-    "website": {
-        "dashboard": {
-            "selector": {
-                "afternoon": "Good Afternoon, Please choose a server.",
-                "morning": "Good Morning, Please choose a server."
-            },
-            "sidebar": {
-                "interactionsettings": "Settings",
-                "main": "User Settings",
-                "manage": "Enforcement",
-                "customize": "Extra Settings",
-                "mod": "Moderation",
-                "log": "Logging",
-                "audit": "Audit Logs",
-                "level": "Leveling",
-                "starboard": "Starboard",
-                "notifications": "Notifications",
-                "twitch": "Twitch Notification",
-                "youtube": "Youtube Notification",
-                "music": "Music",
-                "musicSettings": "Music Settings",
-                "queue": "Queue List",
-                "customActions": "Custom Actions",
-                "leaderboard": "Leaderboard",
-                "reddit": "Reddit Notification",
-                "premium": {
-                    "no": "Buy Premium",
-                    "yes": "Buy Premium Again!"
-                },
-                "goBack": "Go Back"
-            },
-            "topCards": {
-                "member": "Member Count",
-                "access": "Access Status",
-                "role": "Role Count",
-                "channel": "Channel Count"
-            },
-            "main": {
-                "card1": {
-                    "name": "Configurations",
-                    "input1Label": "Prefix",
-                    "input1PlaceHolder": "Enter Prefix",
-                    "input2Label": "Bot Nickname",
-                    "input2PlaceHolder": "Enter Bot Nickname"
-                },
-                "card2": {
-                    "name": "Extra Configurations",
-                    "button1Label": "NSFW Status",
-                    "button1Enable": "Enable NSFW",
-                    "button1Disable": "Disable NSFW",
-                    "input1Label": "Guild Color"
-                }
-            }
+  "website": {
+    "dashboard": {
+      "selector": {
+        "afternoon": "Good Afternoon, Please choose a server.",
+        "morning": "Good Morning, Please choose a server."
+      },
+      "sidebar": {
+        "interactionsettings": "Settings",
+        "main": "User Settings",
+        "manage": "Enforcement",
+        "customize": "Extra Settings",
+        "mod": "Moderation",
+        "log": "Logging",
+        "audit": "Audit Logs",
+        "level": "Leveling",
+        "starboard": "Starboard",
+        "notifications": "Notifications",
+        "twitch": "Twitch Notification",
+        "youtube": "Youtube Notification",
+        "music": "Music",
+        "musicSettings": "Music Settings",
+        "queue": "Queue List",
+        "customActions": "Custom Actions",
+        "leaderboard": "Leaderboard",
+        "reddit": "Reddit Notification",
+        "premium": {
+          "no": "Buy Premium",
+          "yes": "Buy Premium Again!"
         },
-        "navBar": {
-            "name": "Grace",
-            "support": "Support",
-            "invite": "Invite",
-            "vote": "Vote",
-            "premium": "Premium",
-            "donors": "Donors",
-            "features": "features",
-            "docs": "Docs",
-            "botDocs": "Bot Docs",
-            "WebsiteDocs": "Website Docs",
-            "Hub Docs": "Hub Docs",
-            "API Docs": "API Docs",
-            "other": "Other",
-            "botStats": "Bot Stats",
-            "redeem": "Redeem Code",
-            "levelCal": "Level Calculator",
-            "trello": "Trello",
-            "debugConsole": "DEBUG CONSOLE",
-            "login": "Login",
-            "profile": "Profile",
-            "uploadUserBackup": "Upload User Backup",
-            "userDataDump": "User Data Dump",
-            "dashboard": "Dashboard",
-            "logout": "Logout"
+        "goBack": "Go Back"
+      },
+      "topCards": {
+        "member": "Member Count",
+        "access": "Access Status",
+        "role": "Role Count",
+        "channel": "Channel Count"
+      },
+      "main": {
+        "card1": {
+          "name": "Configurations",
+          "input1Label": "Prefix",
+          "input1PlaceHolder": "Enter Prefix",
+          "input2Label": "Bot Nickname",
+          "input2PlaceHolder": "Enter Bot Nickname"
         },
-        "footer": {
-            "vote": "Vote",
-            "invite": "Invite",
-            "premium": "Premium",
-            "donors": "Donors",
-            "tos": "Terms Of Service",
-            "pp": "Privacy Policy",
-            "copyright": "Copyright © 2019-{0} Grace Bot. All rights reserved.",
-            "affiliated": "Affiliated with {0}. Managed with ❤️ in the USA!",
-            "notAff": "Not affiliated with Discord Inc, or any other services used.",
-            "api": "Api: v{0}",
-            "system": "System: v{0}",
-            "systemName": "System Name: {0}",
-            "avgTime": "Avg Times: {0}"
-        },
-        "home": {
-            "name": "Grace Bot",
-            "i3": "Making Discord Fun Again <br>For <a class=\"mainTextColor\">{0}</a> users and <a class=\"mainTextColor\">{1}</a> servers!",
-            "i5": "Utilize Grace to make your Discord guild funner, safer and smarter, all with a fully customizable dashboard!"
-        },
-        "logout": {
-            "i3": "Were currently logging you out!",
-            "i5": "You will be redirected once logout is finished!"
-        },
-        "features": {
-            "notifications": {
-                "title": "Notification System",
-                "desc": "Want to get updates for when your favorite creators upload, stream, and post content? With Grace, you can easily send notifications to your community within minutes!"
-            },
-            "reaction": {
-                "title": "Reaction Roles",
-                "desc": "Give your community a new modern feel with Reaction Roles! With Grace, quickly let users give themselves roles based on the emoji selected! And loads more options!"
-            },
-            "xp": {
-                "title": "Xp Leveling",
-                "desc": "Configure Grace to enchant your community members and let your members climb to the top with XP Leveling! Reward your most active members with free and unlimited role rewards and online"
-            },
-            "music": {
-                "title": "HD Music",
-                "desc": "Jam With your friends! Play music in your voice channels for free! Listen to Twitch, YouTube, and more, for how long as you want!"
-            },
-            "communicate": {
-                "title": "Communicate with your community!",
-                "desc": "Want to ask your community questions? With Grace quickly use polls, announcements, and reminders to interact with your community!"
-            }
+        "card2": {
+          "name": "Extra Configurations",
+          "button1Label": "NSFW Status",
+          "button1Enable": "Enable NSFW",
+          "button1Disable": "Disable NSFW",
+          "input1Label": "Guild Color"
         }
+      }
     },
-    "bot": {
-        "commands": {
-            "hello": {
-                "respond": "Hello!"
-            }
-        }
+    "navBar": {
+      "name": "Grace",
+      "support": "Support",
+      "invite": "Invite",
+      "vote": "Vote",
+      "premium": "Premium",
+      "donors": "Donors",
+      "features": "features",
+      "docs": "Docs",
+      "botDocs": "Bot Docs",
+      "WebsiteDocs": "Website Docs",
+      "Hub Docs": "Hub Docs",
+      "API Docs": "API Docs",
+      "other": "Other",
+      "botStats": "Bot Stats",
+      "redeem": "Redeem Code",
+      "levelCal": "Level Calculator",
+      "trello": "Trello",
+      "debugConsole": "DEBUG CONSOLE",
+      "login": "Login",
+      "profile": "Profile",
+      "uploadUserBackup": "Upload User Backup",
+      "userDataDump": "User Data Dump",
+      "dashboard": "Dashboard",
+      "logout": "Logout"
+    },
+    "footer": {
+      "vote": "Vote",
+      "invite": "Invite",
+      "premium": "Premium",
+      "donors": "Donors",
+      "tos": "Terms Of Service",
+      "pp": "Privacy Policy",
+      "copyright": "Copyright © 2019-{0} Grace Bot. All rights reserved.",
+      "affiliated": "Affiliated with {0}. Managed with ❤️ in the USA!",
+      "notAff": "Not affiliated with Discord Inc, or any other services used.",
+      "api": "Api: v{0}",
+      "system": "System: v{0}",
+      "systemName": "System Name: {0}",
+      "avgTime": "Avg Times: {0}"
+    },
+    "home": {
+      "name": "Grace Bot",
+      "i3": "Making Discord Fun Again <br>For <a class=\"mainTextColor\">{0}</a> users and <a class=\"mainTextColor\">{1}</a> servers!",
+      "i5": "Utilize Grace to make your Discord guild funner, safer and smarter, all with a fully customizable dashboard!"
+    },
+    "logout": {
+      "i3": "Were currently logging you out!",
+      "i5": "You will be redirected once logout is finished!"
+    },
+    "features": {
+      "notifications": {
+        "title": "Notification System",
+        "desc": "Want to get updates for when your favorite creators upload, stream, and post content? With Grace, you can easily send notifications to your community within minutes!"
+      },
+      "reaction": {
+        "title": "Reaction Roles",
+        "desc": "Give your community a new modern feel with Reaction Roles! With Grace, quickly let users give themselves roles based on the emoji selected! And loads more options!"
+      },
+      "xp": {
+        "title": "Xp Leveling",
+        "desc": "Configure Grace to enchant your community members and let your members climb to the top with XP Leveling! Reward your most active members with free and unlimited role rewards and online"
+      },
+      "music": {
+        "title": "HD Music",
+        "desc": "Jam With your friends! Play music in your voice channels for free! Listen to Twitch, YouTube, and more, for how long as you want!"
+      },
+      "communicate": {
+        "title": "Communicate with your community!",
+        "desc": "Want to ask your community questions? With Grace quickly use polls, announcements, and reminders to interact with your community!"
+      }
     }
+  },
+  "bot": {
+    "commands": {
+      "hello": {
+        "respond": "Hello!"
+      }
+    },
+    "defaultResponces": {
+      "banned": "{{type}} is banned from this action!",
+      "vote": "You can now vote for {{client}}, here!: {{link}}",
+      "commandMissing": "The `{{command}}` command, was not found. Try again later!",
+      "unknownError": "An unknown error has happened, Try again later!",
+      "iAmMissingPermissions": "I am missing permissions. To run this action I need the following permissions. `{{permissions}}`"
+    }
+  }
 }
