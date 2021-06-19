@@ -127,17 +127,19 @@
     }
   },
   "bot": {
-    "commands": {
-      "hello": {
-        "respond": "Hello!"
+    "translation": {
+      "commands": {
+        "hello": {
+          "respond": "Hello!"
+        }
+      },
+      "defaultResponces": {
+        "banned": "{{type}} is banned from this action!",
+        "vote": "You can now vote for {{client}}, here!: {{link}}",
+        "commandMissing": "The `{{command}}` command, was not found. Try again later!",
+        "unknownError": "An unknown error has happened, Try again later!",
+        "iAmMissingPermissions": "I am missing permissions. To run this action I need the following permissions. `{{permissions}}`"
       }
-    },
-    "defaultResponces": {
-      "banned": "{{type}} is banned from this action!",
-      "vote": "You can now vote for {{client}}, here!: {{link}}",
-      "commandMissing": "The `{{command}}` command, was not found. Try again later!",
-      "unknownError": "An unknown error has happened, Try again later!",
-      "iAmMissingPermissions": "I am missing permissions. To run this action I need the following permissions. `{{permissions}}`"
     }
   }
 }
