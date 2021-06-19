@@ -135,7 +135,11 @@
       },
       "defaultResponces": {
         "banned": "{{type}} is banned from this action!",
-        "vote": "You can now vote for {{client}}, here!: {{link}}",
+        "vote": {
+          "already": "You have already voted!",
+          "msg": "You can now vote for {{client}}, here!: {{link}}",
+          "msgButton": "Vote Now!"
+        },
         "commandMissing": "The `{{command}}` command, was not found. Try again later!",
         "unknownError": "An unknown error has happened, Try again later!",
         "iAmMissingPermissions": "I am missing permissions. To run this action I need the following permissions. `{{permissions}}`"
