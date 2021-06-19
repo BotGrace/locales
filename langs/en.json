@@ -142,7 +142,11 @@
         },
         "commandMissing": "The `{{command}}` command, was not found. Try again later!",
         "unknownError": "An unknown error has happened, Try again later!",
-        "iAmMissingPermissions": "I am missing permissions. To run this action I need the following permissions. `{{permissions}}`"
+        "iAmMissingPermissions": "I am missing permissions. To run this action I need the following permissions. `{{permissions}}`",
+        "noAccess": {
+          "title": "Restricted Access",
+          "desc": "Sorry, you do not currently have permission to access this. This action requires, {{- requires}}"
+        }
       }
     }
   }
