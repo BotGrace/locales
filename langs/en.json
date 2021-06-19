@@ -137,7 +137,7 @@
         "banned": "{{type}} is banned from this action!",
         "vote": {
           "already": "You have already voted!",
-          "msg": "You can now vote for {{client}}, here!: {{link}}",
+          "msg": "You can now vote for {{client}}, here!: {{- link}}",
           "msgButton": "Vote Now!"
         },
         "commandMissing": "The `{{command}}` command, was not found. Try again later!",
