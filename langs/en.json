@@ -141,6 +141,10 @@
             "title": "Poll Added!",
             "desc": "The new poll was added in <#{{-id}}>!"
           }
+        },
+        "animalImages": {
+          "title": "Enjoy {{animal}}!",
+          "reportImage": "[{{imageNumber}}] Report Image"
         }
       },
       "defaultResponces": {
@@ -151,7 +155,11 @@
           "msgButton": "Vote Now!"
         },
         "commandMissing": "The `{{command}}` command, was not found. Try again later!",
-        "unknownError": "An unknown error has happened, Try again later!",
+        "error": {
+          "title": "Oops, an error happened!",
+          "unknown": "An unknown error has happened, Try again later!",
+          "known": "An error has happened, Try again later!\nError: {{- error}}"
+        },
         "iAmMissingPermissions": "I am missing permissions. To run this action I need the following permissions. `{{permissions}}`",
         "noAccess": {
           "title": "Restricted Access",
