@@ -136,6 +136,10 @@
           "respond": {
             "title": "New Poll! Time to vote!",
             "desc": "{{poll}}"
+          },
+          "success": {
+            "title": "Poll Added!",
+            "desc": "The new poll was added in <#{{-id}}>!"
           }
         }
       },
