@@ -171,6 +171,12 @@
             "title": "{{name}} has a suggestion!",
             "footer": "Use the reactions to vote below!"
           }
+        },
+        "prefix": {
+          "respond": {
+            "title": "Prefix is now update!",
+            "desc": "Your new prefix is `{{prefix}}`\nWe recommend using slash commands! Type `/` to get started."
+          }
         }
       },
       "defaultResponces": {
@@ -194,6 +200,9 @@
         "missingValues": {
           "title": "Arguments Values",
           "desc": "Sorry, but your currently missing the following Arguments/Values, `{{values}}`"
+        },
+        "dashboard": {
+          "button": "Dashboard Page"
         }
       }
     }
