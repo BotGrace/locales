@@ -131,6 +131,12 @@
       "commands": {
         "hello": {
           "respond": "Hello!"
+        },
+        "poll": {
+          "respond": {
+            "title": "New Poll! Time to vote!",
+            "desc": "{{poll}}"
+          }
         }
       },
       "defaultResponces": {
@@ -146,6 +152,10 @@
         "noAccess": {
           "title": "Restricted Access",
           "desc": "Sorry, you do not currently have permission to access this. This action requires, {{- requires}}"
+        },
+        "missingValues": {
+          "title": "Arguments Values",
+          "desc": "Sorry, but your currently missing the following Arguments/Values, `{{values}}`"
         }
       }
     }
