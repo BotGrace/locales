@@ -153,6 +153,24 @@
         "profile": {
           "button": "Profile Page",
           "content": "{{name}}'s Profile: {{- url}}/profile/{{id}}/ "
+        },
+        "suggest": {
+          "disabled": {
+            "title": "Suggestions is disabled!",
+            "desc": "Please do `{{prefix}}suggestconfig status enable` to enable!"
+          },
+          "missingChannel": {
+            "title": "Suggetions unavailable!",
+            "desc": "Please do `{{prefix}}suggestconfig channel (Channel)` to set a channel!"
+          },
+          "success": {
+            "title": "Suggestion Added!",
+            "desc": "The suggestion was added in <#{{-id}}>!"
+          },
+          "respond": {
+            "title": "{{name}} has a suggestion!",
+            "footer": "Use the reactions to vote below!"
+          }
         }
       },
       "defaultResponces": {
