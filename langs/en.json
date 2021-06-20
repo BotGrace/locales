@@ -145,6 +145,14 @@
         "animalImages": {
           "title": "Enjoy {{animal}}!",
           "reportImage": "[{{imageNumber}}] Report Image"
+        },
+        "leaderboard": {
+          "button": "Leaderboard Page",
+          "content": "{{name}}'s LeaderBoard: {{- url}}/leaderboard/{{id}}/ "
+        },
+        "profile": {
+          "button": "Profile Page",
+          "content": "{{name}}'s Profile: {{- url}}/profile/{{id}}/ "
         }
       },
       "defaultResponces": {
