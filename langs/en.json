@@ -183,6 +183,13 @@
             "title": "{{action}} has been updated!",
             "desc": "{{action}} has been update to {{- value}}"
           }
+        },
+        "level": {
+          "notFound": {
+            "title": "User Not Found!",
+            "desc": "Looks like the user isnt found! Have them talk in chat to start gaining xp!"
+          },
+          "loading": "Please wait... Loading {{user}}'s Level Card."
         }
       },
       "defaultResponces": {
