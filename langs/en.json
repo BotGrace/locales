@@ -177,6 +177,12 @@
             "title": "Prefix is now update!",
             "desc": "Your new prefix is `{{prefix}}`\nWe recommend using slash commands! Type `/` to get started."
           }
+        },
+        "suggestSettings": {
+          "respond": {
+            "title": "{{action}} has been updated!",
+            "desc": "{{action}} has been update to {{- value}}"
+          }
         }
       },
       "defaultResponces": {
