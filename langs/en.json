@@ -148,11 +148,11 @@
         },
         "leaderboard": {
           "button": "Leaderboard Page",
-          "content": "{{name}}'s LeaderBoard: {{- url}}/leaderboard/{{id}}/ "
+          "content": "{{name}}&#39;s LeaderBoard: {{- url}}/leaderboard/{{id}}/ "
         },
         "profile": {
           "button": "Profile Page",
-          "content": "{{name}}'s Profile: {{- url}}/profile/{{id}}/ "
+          "content": "{{name}}&#39;s Profile: {{- url}}/profile/{{id}}/ "
         },
         "suggest": {
           "disabled": {
@@ -189,7 +189,7 @@
             "title": "User Not Found!",
             "desc": "Looks like the user isnt found! Have them talk in chat to start gaining xp!"
           },
-          "loading": "Please wait... Loading {{user}}'s Level Card."
+          "loading": "Please wait... Loading {{user}}&#39;s Level Card."
         },
         "play": {
           "requireVC" : {
@@ -201,8 +201,8 @@
             "desc": "Looks like the voice channel is full! Try to make some room for me!\n_I ate too many pancakes :3_"
           },
           "noNode": {
-            "title": "Can't Join!",
-            "desc": "Looks like I can't find a sutable music node to join!\n**Try again in 5 mins**"
+            "title": "Can&#39;t Join!",
+            "desc": "Looks like I can&#39;t find a sutable music node to join!\n**Try again in 5 mins**"
           },
           "invaildProvider": {
             "title": "Provider Invaild",
@@ -213,13 +213,13 @@
             "desc": "Please Try Again."
           },
           "moreSongsCantAdd": {
-            "title": "{{amount}} songs couldn't be added!",
-            "desc": "Some songs couldn't be added maybe because of our queue max limit. \nMax limit for your guild: **{{queueLimit}}**",
+            "title": "{{amount}} songs couldn&#39;t be added!",
+            "desc": "Some songs couldn&#39;t be added maybe because of our queue max limit. \nMax limit for your guild: **{{queueLimit}}**",
             "footer": "{{queueTotal}} songs left!"
           },
           "streamMissing": {
-            "title": "The stream couldn't be added.",
-            "desc": "The stream you entered couldn't be found. Make sure the stream is live!",
+            "title": "The stream couldn&#39;t be added.",
+            "desc": "The stream you entered couldn&#39;t be found. Make sure the stream is live!",
             "footer": "{{queueTotal}} songs left!"
           },
           "wait": {
