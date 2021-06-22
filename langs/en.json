@@ -222,8 +222,9 @@
             "desc": "The stream you entered couldn&#39;t be found. Make sure the stream is live!",
             "footer": "{{queueTotal}} songs left!"
           },
-          "wait": {
-            "title": "Wa"
+          "pickFrom": {
+            "title": "Please pick from {{startNumber}} - {{endNumber}}",
+            "desc": "Please press one of the buttons below. Must be {{user}} to press the button.\nPress cancel to stop search."
           }
         }
       },
