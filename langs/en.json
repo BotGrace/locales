@@ -224,7 +224,7 @@
           },
           "pickFrom": {
             "title": "Please pick from {{startNumber}} - {{endNumber}}",
-            "desc": "Please press one of the buttons below. Must be {{user}} to press the button.\nPress cancel to stop search.\n{{list}}"
+            "desc": "Please press one of the buttons below. Must be {{user}} to press the button.\nPress cancel to stop search.\n{{- list}}"
           }
         }
       },
