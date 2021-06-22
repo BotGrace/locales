@@ -190,6 +190,20 @@
             "desc": "Looks like the user isnt found! Have them talk in chat to start gaining xp!"
           },
           "loading": "Please wait... Loading {{user}}'s Level Card."
+        },
+        "play": {
+          "requireVC" : {
+            "title": "Oops!",
+            "desc": "You must be in a voice channel!"
+          },
+          "full": {
+            "title": "Voice Channel Full!",
+            "desc": "Looks like the voice channel is full! Try to make some room for me!\n_I ate too many pancakes :3_"
+          },
+          "noNode": {
+            "title": "Can't Join!",
+            "desc": "Looks like I can't find a sutable music node to join!\n**Try again in 5 mins**"
+          }
         }
       },
       "defaultResponces": {
