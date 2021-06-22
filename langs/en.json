@@ -203,6 +203,27 @@
           "noNode": {
             "title": "Can't Join!",
             "desc": "Looks like I can't find a sutable music node to join!\n**Try again in 5 mins**"
+          },
+          "invaildProvider": {
+            "title": "Provider Invaild",
+            "desc": "The Provider `{{provider}}` selected is currently not supported, please use a song name or a different link.\nValid Providers: `{{validProviders}}`"
+          },
+          "searchStop": {
+            "title": "Search has been canceled.",
+            "desc": "Please Try Again."
+          },
+          "moreSongsCantAdd": {
+            "title": "{{amount}} songs couldn't be added!",
+            "desc": "Some songs couldn't be added maybe because of our queue max limit. \nMax limit for your guild: **{{queueLimit}}**",
+            "footer": "{{queueTotal}} songs left!"
+          },
+          "streamMissing": {
+            "title": "The stream couldn't be added.",
+            "desc": "The stream you entered couldn't be found. Make sure the stream is live!",
+            "footer": "{{queueTotal}} songs left!"
+          },
+          "wait": {
+            "title": "Wa"
           }
         }
       },
@@ -230,6 +251,10 @@
         },
         "dashboard": {
           "button": "Dashboard Page"
+        },
+        "loading": {
+          "title": "Please Wait...",
+          "desc": "Currently Loading, {{info}}."
         }
       }
     }
