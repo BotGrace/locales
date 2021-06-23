@@ -226,6 +226,30 @@
             "title": "Please pick from {{startNumber}} - {{endNumber}}",
             "desc": "Please press one of the buttons below. **Only <@{{user}}> can interact with this!**\nPress cancel to stop search.\n{{- list}}",
             "footer": "Search will auto cancel in 15s!"
+          },
+          "playing": {
+            "title": "🎶 Now Playing{{extraMsg}} 🎶",
+            "desc": "[{{title}}]({{link}}) by {{author}} required by **<@{{user}}>**\n with {{specialArgs}} enabled!\n`{{pos}}/{{posEnd}}`{{- extraMsg}}",
+            "footer": "{{queueTotal}} songs left!"
+          },
+          "errorPlaying": {
+            "title": "❌ Song Error! ❌",
+            "desc": "Couldn't play that song! This song might be restricted!{{- extraMSG}}"
+          },
+          "leftOnlyPersn": {
+            "title": "Music Ended!",
+            "desc": "It looks like im the only one left!\nTo disable me leaving enable 24/7.{{- extraMSG}}",
+            "footer": "Hope You Enjoyed!"
+          },
+          "stopCommand": {
+            "title": "Music Ended!",
+            "desc": "Stop command was issued. Music has ended!",
+            "footer": "Hope You Enjoyed!"
+          },
+          "queueEnd": {
+            "title": "Music Ended!",
+            "desc": "No more music left! Music has ended!",
+            "footer": "Hope You Enjoyed!"
           }
         }
       },
