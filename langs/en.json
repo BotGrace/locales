@@ -229,7 +229,7 @@
           },
           "playing": {
             "title": "🎶 Now Playing{{extraMsg}} 🎶",
-            "desc": "[{{title}}]({{link}}) by {{author}} required by **<@{{user}}>**\n with {{specialArgs}} enabled!\n`{{pos}}/{{posEnd}}`{{- extraMsg}}",
+            "desc": "[{{- title}}]({- {link}}) by {{- author}} required by **<@{{- user}}>**\n with {{- specialArgs}} enabled!\n`{{- pos}}/{{- posEnd}}`{{- extraMsg}}",
             "footer": "{{queueTotal}} songs left!"
           },
           "errorPlaying": {
