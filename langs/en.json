@@ -261,6 +261,17 @@
             "desc": "No songs where added, there might be some info above.",
             "footer": "{{queueTotal}} songs left!"
           }
+        },
+        "playing": {
+          "notPlaying": {
+            "title": "Oops!",
+            "desc": "Looks like Im currently not playing any music!\nTo get started run `{{prefix}}play <Song Title/Link>`"
+          },
+          "currentlyPlaying": {
+            "title": "💿 Now Playing{{extraMsg}} 💿",
+            "desc": "[{{- title}}]({{- link}}) by {{- author}} requested by **<@{{- user}}>**\n`{{timeBar}} {{- pos}}/{{- posEnd}}`{{- extraMsg}}",
+            "footer": "{{queueTotal}} songs left!"
+          }
         }
       },
       "defaultResponces": {
