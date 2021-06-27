@@ -282,6 +282,18 @@
           "zero": {
             "title": "No messages Found.",
             "desc": "No messages were found to delete."
+          },
+          "cancel": {
+            "title": "Purge canceled",
+            "desc": "The purge has been canceled."
+          },
+          "respondwo": {
+            "title": "Delete {{msgs}} Messages",
+            "desc": "Successfully deleted {{msgs}}."
+          },
+          "respond": {
+            "title": "Delete {{msgs}} Messages",
+            "desc": "Successfully deleted {{msgs}}.\n[Click Here]({{- url}}) to access your archive.`Archive ID: {{id}}`"
           }
         }
       },
