@@ -292,8 +292,8 @@
             "desc": "Successfully deleted {{msgs}}."
           },
           "respond": {
-            "title": "Delete {{msgs}} Messages",
-            "desc": "Successfully deleted {{msgs}}.\n[Click Here]({{- url}}) to access your archive.`Archive ID: {{id}}`"
+            "title": "Deleted, {{msgs}} Messages",
+            "desc": "Successfully deleted {{msgs}}.\n[Click Here]({{- url}}) to access your archive.\n`Archive ID: {{id}}`\n**Expires in 30days**"
           }
         }
       },
