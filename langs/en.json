@@ -272,6 +272,17 @@
             "desc": "[{{- title}}]({{- link}}) by {{- author}}, \nrequested by **<@{{- user}}>**\n`{{timeBar}} {{- pos}}/{{- posEnd}}`{{- extraMsg}}",
             "footer": "{{queueTotal}} songs left!"
           }
+        },
+        "purge": {
+          "areYouSure":{
+            "title": "Are you sure?",
+            "desc": "Are you sure you want to delete {{msgs}}?\nOnly <@{{user}}> can respond to this message.",
+            "footer": "You have 15s to respond."
+          },
+          "zero": {
+            "title": "No messages Found.",
+            "desc": "No messages were found to delete."
+          }
         }
       },
       "defaultResponces": {
