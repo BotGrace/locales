@@ -280,7 +280,11 @@
             "footer": "You have 15s to respond."
           },
           "zero": {
-            "title": "No messages Found.",
+            "title": "No messages deleted.",
+            "desc": "No messages were found to delete."
+          },
+          "zeroDeleted": {
+            "title": "No messages deleted.",
             "desc": "No messages were found to delete."
           },
           "cancel": {
