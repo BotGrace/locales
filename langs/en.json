@@ -260,6 +260,10 @@
             "title": "No song(s) were added!",
             "desc": "No songs where added, there might be some info above.",
             "footer": "{{queueTotal}} songs left!"
+          },
+          "sameVC": {
+            "title": "Not in same VC!",
+            "desc": "We must be in the same voice channel!"
           }
         },
         "playing": {
@@ -271,6 +275,16 @@
             "title": "💿 Now Playing{{extraMsg}} 💿",
             "desc": "[{{- title}}]({{- link}}) by {{- author}}, \nrequested by **<@{{- user}}>**\n`{{timeBar}} {{- pos}}/{{- posEnd}}`{{- extraMsg}}",
             "footer": "{{queueTotal}} songs left!"
+          }
+        },
+        "pause": {
+          "paused": {
+            "title": "⏸️ Music Paused ⏸️",
+            "desc": "The music has been paused."
+          },
+          "resumed": {
+            "title": "💿 Music Resumed 💿",
+            "desc": "The music has been resumed."
           }
         },
         "purge": {
