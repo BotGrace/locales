@@ -278,13 +278,21 @@
           }
         },
         "pause": {
-          "paused": {
+          "pause": {
             "title": "⏸️ Music Paused ⏸️",
             "desc": "The music has been paused."
           },
-          "resumed": {
+          "resume": {
             "title": "💿 Music Resumed 💿",
             "desc": "The music has been resumed."
+          },
+          "paused": {
+            "title": "⏸️ Music Already Paused ⏸️",
+            "desc": "The music is already paused."
+          },
+          "resumed": {
+            "title": "💿 Music Already Playing 💿",
+            "desc": "The music is already playing."
           }
         },
         "purge": {
