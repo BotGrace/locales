@@ -269,7 +269,7 @@
         "playing": {
           "notPlaying": {
             "title": "Oops!",
-            "desc": "Looks like Im currently not playing any music!\nTo get started run `{{prefix}}play <Song Title/Link>`"
+            "desc": "Looks like Im currently not playing any music!\nTo get started run `{{prefix}}play [Song Title/Link]`"
           },
           "currentlyPlaying": {
             "title": "💿 Now Playing{{extraMsg}} 💿",
@@ -293,6 +293,32 @@
           "resumed": {
             "title": "💿 Music Already Playing 💿",
             "desc": "The music is already playing."
+          }
+        },
+        "volume": {
+          "respond": {
+            "title": "Volume changed!",
+            "desc": "Changed the music volume to {{vol}}%."
+          }
+        },
+        "repeat": {
+          "enable": {
+            "title": "🔁 Repeat Enabled 🔁",
+            "desc": "The current song will now repeat. _If shuffle is enabled its now disabled._"
+          },
+          "disable": {
+            "title": "🔁 Repeat Disable 🔁",
+            "desc": "The current song will no longer repeat."
+          }
+        },
+        "shuffle": {
+          "enable": {
+            "title": "🔀 Shuffle Enabled 🔀",
+            "desc": "Music will now shuffle its queue. _If repeat is enabled its now disabled._"
+          },
+          "disable": {
+            "title": "🔀 Shuffle Disable 🔀",
+            "desc": "Music will no longer shuffle its queue."
           }
         },
         "purge": {
