@@ -329,7 +329,7 @@
           "list": {
             "title": "{{- name}}'s Music Queue.",
             "desc": "[Click Here]({{- url}}) to see your queue online!\n\n{{- list}}",
-            "footer": "Page: {{page}}. Press buttons below to see more/less of your queue."
+            "footer": "Page: {{page}}/{{total}}. Press buttons below to see more/less of your queue."
           }
         },
         "purge": {
