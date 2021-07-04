@@ -321,6 +321,17 @@
             "desc": "Music will no longer shuffle its queue."
           }
         },
+        "queue": {
+          "empty": {
+            "title": "Queue Empty",
+            "desc": "It looks like the queue is empty!"
+          },
+          "list": {
+            "title": "Music Queue.",
+            "desc": "[Click Here]({{- url}}) to see your queue online!\n{{- list}}",
+            "footer": "Press buttons below to see more/less of your queue."
+          }
+        },
         "purge": {
           "areYouSure":{
             "title": "Are you sure?",
