@@ -327,9 +327,9 @@
             "desc": "It looks like the queue is empty!"
           },
           "list": {
-            "title": "Music Queue.",
-            "desc": "[Click Here]({{- url}}) to see your queue online!\n{{- list}}",
-            "footer": "Press buttons below to see more/less of your queue."
+            "title": "{{- name}}'s Music Queue.",
+            "desc": "[Click Here]({{- url}}) to see your queue online!\n\n{{- list}}",
+            "footer": "Page: {{page}}. Press buttons below to see more/less of your queue."
           }
         },
         "purge": {
