@@ -321,6 +321,20 @@
             "desc": "Music will no longer shuffle its queue."
           }
         },
+        "noleave": {
+          "enable": {
+            "title": "🛑 24/7 Mode Enabled 🛑",
+            "desc": "Music will no longer end when everyone is gone._"
+          },
+          "disable": {
+            "title": "🛑 24/7 Mode Disable 🛑",
+            "desc": "Music will now leave when everyone is gone."
+          },
+          "premium": {
+            "title": "Premium Required",
+            "desc": "24/7 Mode requires premium! [Click Here]({{- url}}) to buy premium!"
+          }
+        },
         "queue": {
           "empty": {
             "title": "Queue Empty",
