@@ -378,6 +378,14 @@
             "title": "NSFW status has been updated!",
             "desc": "NSFW status has been update to {{- value}}"
           }
+        },
+        "hug": {
+          "content": "{{- user}} hugged <@{{target}}>!",
+          "contentself": "{{- user}} hugged them self? (Maybe they just need some love)",
+          "embed": {
+            "title": "Hug Time!",
+            "desc": "yay <3"
+          }
         }
       },
       "defaultResponces": {
