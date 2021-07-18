@@ -372,6 +372,12 @@
             "title": "Deleted, {{msgs}} Messages",
             "desc": "Successfully deleted {{msgs}}.\n[Click Here]({{- url}}) to access your archive.\n`Archive ID: {{id}}`\n**Expires in 30days**"
           }
+        },
+        "nsfw": {
+          "respond": {
+            "title": "NSFW status has been updated!",
+            "desc": "NSFW status has been update to {{- value}}"
+          }
         }
       },
       "defaultResponces": {
