@@ -381,10 +381,58 @@
         },
         "hug": {
           "content": "{{- user}} hugged <@{{target}}>!",
-          "contentself": "{{- user}} hugged them self? (Maybe they just need some love)",
+          "contentself": "{{- user}} hugged them self? _(Maybe they just need some love)_",
           "embed": {
             "title": "Hug Time!",
             "desc": "yay <3"
+          }
+        },
+        "kiss": {
+          "content": "{{- user}} kiss <@{{target}}>!",
+          "contentself": "{{- user}} kiss them self? _(How? Did you use a mirror?)_",
+          "embed": {
+            "title": "Kisses <3!",
+            "desc": "yay :D"
+          }
+        },
+        "tickle": {
+          "content": "{{- user}} tickled <@{{target}}> to death!",
+          "contentself": "{{- user}} tickled them self? _(How? That shouldnt be possible?)_",
+          "embed": {
+            "title": "Tickles <3!",
+            "desc": "yay >:D"
+          }
+        },
+        "slap": {
+          "content": "{{- user}} slapped <@{{target}}>! _ouch_",
+          "contentself": "{{- user}} slapped them self? _(You good?)_",
+          "embed": {
+            "title": "Get Slapped!",
+            "desc": "hehe >:D"
+          }
+        },
+        "poke": {
+          "content": "{{- user}} poked <@{{target}}>! _annoying_",
+          "contentself": "{{- user}} poked them self? _(You okay?)_",
+          "embed": {
+            "title": "Get Poked <3!",
+            "desc": "hehe >:D"
+          }
+        },
+        "cuddle": {
+          "content": "{{- user}} cuddled <@{{target}}>! _yay_",
+          "contentself": "{{- user}} cuddled them self? _(You okay?)_",
+          "embed": {
+            "title": "Yayy! Cuddles <3!",
+            "desc": "Cuddles hehe >:D"
+          }
+        },
+        "pat": {
+          "content": "{{- user}} patted <@{{target}}>! _yay_",
+          "contentself": "{{- user}} patted them self? _(Self Motivation!)_",
+          "embed": {
+            "title": "Yayy! Patts <3!",
+            "desc": "Did something good to get a pat! >:D"
           }
         }
       },
