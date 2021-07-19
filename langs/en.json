@@ -100,7 +100,7 @@
       "i5": "Utilize Grace to make your Discord guild funner, safer and smarter, all with a fully customizable dashboard!"
     },
     "logout": {
-      "i3": "Were currently logging you out!",
+      "i3": "We're currently logging you out!",
       "i5": "You will be redirected once logout is finished!"
     },
     "features": {
@@ -110,10 +110,10 @@
       },
       "reaction": {
         "title": "Reaction Roles",
-        "desc": "Give your community a new modern feel with Reaction Roles! With Grace, quickly let users give themselves roles based on the emoji selected! And loads more options!"
+        "desc": "Give your community a new modern feel with Reaction Roles! With Grace, quickly let users give themselves roles based on the emoji selected! And loads of more options!"
       },
       "xp": {
-        "title": "Xp Leveling",
+        "title": "XP Leveling",
         "desc": "Configure Grace to enchant your community members and let your members climb to the top with XP Leveling! Reward your most active members with free and unlimited role rewards and online"
       },
       "music": {
@@ -122,7 +122,7 @@
       },
       "communicate": {
         "title": "Communicate with your community!",
-        "desc": "Want to ask your community questions? With Grace quickly use polls, announcements, and reminders to interact with your community!"
+        "desc": "Want to ask your community questions? With Grace, quickly use polls, announcements, and reminders to interact with your community!"
       }
     }
   },
@@ -148,19 +148,19 @@
         },
         "leaderboard": {
           "button": "Leaderboard Page",
-          "content": "{{name}}s LeaderBoard: {{- url}}/leaderboard/{{id}}/ "
+          "content": "{{name}}'s LeaderBoard: {{- url}}/leaderboard/{{id}}/ "
         },
         "profile": {
           "button": "Profile Page",
-          "content": "{{name}}s Profile: {{- url}}/profile/{{id}}/ "
+          "content": "{{name}}'s Profile: {{- url}}/profile/{{id}}/ "
         },
         "suggest": {
           "disabled": {
-            "title": "Suggestions is disabled!",
+            "title": "Suggestions are disabled!",
             "desc": "Please do `{{prefix}}suggestconfig status enable` to enable!"
           },
           "missingChannel": {
-            "title": "Suggetions unavailable!",
+            "title": "Suggestions unavailable!",
             "desc": "Please do `{{prefix}}suggestconfig channel (Channel)` to set a channel!"
           },
           "success": {
@@ -189,7 +189,7 @@
             "title": "User Not Found!",
             "desc": "Looks like the user isnt found! Have them talk in chat to start gaining xp!"
           },
-          "loading": "Please wait... Loading {{user}}s Level Card."
+          "loading": "Please wait... Loading {{user}}'s Level Card."
         },
         "play": {
           "requireVC" : {
@@ -202,7 +202,7 @@
           },
           "noNode": {
             "title": "Cant Join!",
-            "desc": "Looks like I cant find a sutable music node to join!\n**Try again in 5 mins**"
+            "desc": "Looks like I cant find a suitable music node to join!\n**Try again in 5 mins**"
           },
           "invaildProvider": {
             "title": "Provider Invaild",
@@ -258,18 +258,18 @@
           },
           "zeorSongsAdded": {
             "title": "No song(s) were added!",
-            "desc": "No songs where added, there might be some info above.",
+            "desc": "No songs were added, there might be some info above.",
             "footer": "{{queueTotal}} songs left!"
           },
           "sameVC": {
-            "title": "Not in same VC!",
+            "title": "Not in the same VC!",
             "desc": "We must be in the same voice channel!"
           }
         },
         "playing": {
           "notPlaying": {
             "title": "Oops!",
-            "desc": "Looks like Im currently not playing any music!\nTo get started run `{{prefix}}play [Song Title/Link]`"
+            "desc": "Looks like I'm not currently playing any music!\nTo get started run `{{prefix}}play [Song Title/Link]`"
           },
           "currentlyPlaying": {
             "title": "💿 Now Playing{{extraMsg}} 💿",
@@ -324,11 +324,11 @@
         "noleave": {
           "enable": {
             "title": "🛑 24/7 Mode Enabled 🛑",
-            "desc": "Music will no longer end when everyone is gone._"
+            "desc": "Music will no longer end when everyone is gone."
           },
           "disable": {
             "title": "🛑 24/7 Mode Disable 🛑",
-            "desc": "Music will now leave when everyone is gone."
+            "desc": "Grace will now leave when everyone is gone."
           },
           "premium": {
             "title": "Premium Required",
@@ -358,38 +358,38 @@
           },
           "zeroDeleted": {
             "title": "No messages deleted.",
-            "desc": "No messages were found to delete."
+            "desc": "No messages were deleted."
           },
           "cancel": {
             "title": "Purge canceled",
             "desc": "The purge has been canceled."
           },
           "respondwo": {
-            "title": "Delete {{msgs}} Messages",
+            "title": "Deleted {{msgs}} Messages",
             "desc": "Successfully deleted {{msgs}}."
           },
           "respond": {
-            "title": "Deleted, {{msgs}} Messages",
+            "title": "Deleted {{msgs}} Messages",
             "desc": "Successfully deleted {{msgs}}.\n[Click Here]({{- url}}) to access your archive.\n`Archive ID: {{id}}`\n**Expires in 30days**"
           }
         },
         "nsfw": {
           "respond": {
             "title": "NSFW status has been updated!",
-            "desc": "NSFW status has been update to {{- value}}"
+            "desc": "NSFW status has been updated to {{- value}}"
           }
         },
         "hug": {
           "content": "{{- user}} hugged <@{{target}}>!",
-          "contentself": "{{- user}} hugged them self? _(Maybe they just need some love)_",
+          "contentself": "{{- user}} hugged themselves? _(Maybe they just need some love)_",
           "embed": {
             "title": "Hug Time!",
             "desc": "yay <3"
           }
         },
         "kiss": {
-          "content": "{{- user}} kiss <@{{target}}>!",
-          "contentself": "{{- user}} kiss them self? _(How? Did you use a mirror?)_",
+          "content": "{{- user}} kissed <@{{target}}>!",
+          "contentself": "{{- user}} kiss themselves? _(How? Did you use a mirror?)_",
           "embed": {
             "title": "Kisses <3!",
             "desc": "yay :D"
@@ -397,7 +397,7 @@
         },
         "tickle": {
           "content": "{{- user}} tickled <@{{target}}> to death!",
-          "contentself": "{{- user}} tickled them self? _(How? That shouldnt be possible?)_",
+          "contentself": "{{- user}} tickled themselves? _(How? That shouldnt be possible?)_",
           "embed": {
             "title": "Tickles <3!",
             "desc": "yay >:D"
@@ -405,7 +405,7 @@
         },
         "slap": {
           "content": "{{- user}} slapped <@{{target}}>! _ouch_",
-          "contentself": "{{- user}} slapped them self? _(You good?)_",
+          "contentself": "{{- user}} slapped themselves? _(You good?)_",
           "embed": {
             "title": "Get Slapped!",
             "desc": "hehe >:D"
@@ -413,7 +413,7 @@
         },
         "poke": {
           "content": "{{- user}} poked <@{{target}}>! _annoying_",
-          "contentself": "{{- user}} poked them self? _(You okay?)_",
+          "contentself": "{{- user}} poked themselves? _(You okay?)_",
           "embed": {
             "title": "Get Poked <3!",
             "desc": "hehe >:D"
@@ -421,7 +421,7 @@
         },
         "cuddle": {
           "content": "{{- user}} cuddled <@{{target}}>! _yay_",
-          "contentself": "{{- user}} cuddled them self? _(You okay?)_",
+          "contentself": "{{- user}} cuddled themselves? _(You okay?)_",
           "embed": {
             "title": "Yayy! Cuddles <3!",
             "desc": "Cuddles hehe >:D"
@@ -429,7 +429,7 @@
         },
         "pat": {
           "content": "{{- user}} patted <@{{target}}>! _yay_",
-          "contentself": "{{- user}} patted them self? _(Self Motivation!)_",
+          "contentself": "{{- user}} patted themselves? _(Self Motivation!)_",
           "embed": {
             "title": "Yayy! Patts <3!",
             "desc": "Did something good to get a pat! >:D"
