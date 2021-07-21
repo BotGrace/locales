@@ -343,7 +343,32 @@
           "list": {
             "title": "{{- name}}'s Music Queue.",
             "desc": "[Click Here]({{- url}}) to see your queue online!\n\n{{- list}}",
-            "footer": "Page: {{page}}/{{total}}. Press buttons below to see more/less of your queue."
+            "footer": "Page: {{page}}/{{total}}. Press the buttons below to see more/less of your queue."
+          }
+        },
+        "skip": {
+          "forceSkip": {
+            "title": "Song forced skipped.",
+            "desc": "{{- username}} has done a force skip on the current song, overriding the skip limit."
+          },
+          "disabled": {
+            "title": "Skips disabled!",
+            "desc": "Someone with the {{perm}} permission has disabled skips for this session.\nPlease use `--force` to force a skip."
+          },
+          "skipped": {
+            "title": "Song Skipped",
+            "desc": "The current song {{- song }} has been skipped",
+            "footer": "Current Vote: {{amount}}/{{total}}"
+          },
+          "added": {
+            "title": "Skip vote added!",
+            "desc": "I have added your vote to skip!",
+            "footer": "Current Vote: {{amount}}/{{total}}"
+          },
+          "exist": {
+            "title": "You already voted!",
+            "desc": "it seems you already voted to skip the current song!",
+            "footer": "Current Vote: {{amount}}/{{total}}"
           }
         },
         "purge": {
