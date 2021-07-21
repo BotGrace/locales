@@ -348,7 +348,7 @@
         },
         "skip": {
           "forceSkip": {
-            "title": "Song forced skipped.",
+            "title": "Song force skipped.",
             "desc": "{{- username}} has done a force skip on the current song, overriding the skip limit."
           },
           "disabled": {
@@ -357,7 +357,7 @@
           },
           "skipped": {
             "title": "Song Skipped",
-            "desc": "The current song {{- song }} has been skipped",
+            "desc": "The current song, {{- song }}, has been skipped",
             "footer": "Current Vote: {{amount}}/{{total}}"
           },
           "added": {
@@ -367,7 +367,7 @@
           },
           "exist": {
             "title": "You already voted!",
-            "desc": "it seems you already voted to skip the current song!",
+            "desc": "It seems you already voted to skip the current song!",
             "footer": "Current Vote: {{amount}}/{{total}}"
           }
         },
