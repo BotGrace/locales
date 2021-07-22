@@ -459,6 +459,12 @@
             "title": "Yayy! Patts <3!",
             "desc": "Did something good to get a pat! >:D"
           }
+        },
+        "help": {
+          "noCommands": {
+            "title": "No Commands Found!",
+            "desc": "The query `{{search}}` came up with no results. \nPlease try again later or [**Click Here**](https://gracebot.net/commands?search={{- search}}) to view our online command page!."
+          }
         }
       },
       "defaultResponces": {
