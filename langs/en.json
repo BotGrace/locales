@@ -464,6 +464,25 @@
           "noCommands": {
             "title": "No Commands Found!",
             "desc": "The query `{{search}}` came up with no results. \nPlease try again later or [**Click Here**](https://gracebot.net/commands?search={{- search}}) to view our online command page!."
+          },
+          "command": {
+            "title": "Help Command | {{command}}",
+            "desc": "Your server prefix is set to `{{prefix}}` or use `/` then the command to run a command.\n[**Click Here**](https://gracebot.net/commands?search={{- search}}) to view this command on our online command page!",
+            "fieldDescription": {
+              "title": "Command Description"
+            },
+            "fieldPerms": {
+              "title": "Permissions Required"
+            },
+            "fieldUserStatus": {
+              "title": "Required User Status"
+            },
+            "fieldHowToUse": {
+              "title": "How to use command"
+            },
+            "fieldBetaNsfw": {
+              "title": "Beta / NSFW / Premium"
+            }
           }
         }
       },
