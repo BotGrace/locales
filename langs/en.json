@@ -467,7 +467,7 @@
           },
           "command": {
             "title": "Help Command | {{command}}",
-            "desc": "Your server prefix is set to `{{prefix}}` or use `/` then the command to run a command.\n[**Click Here**](https://gracebot.net/commands?search={{- search}}) to view this command on our online command page!",
+            "desc": "Your server prefix is set to `{{prefix}}` or use `/` then the command to run a command.\n[**Click Here**](https://gracebot.net/commands?search={{- search}}) to view this command on our online command page!{{- extra}}",
             "fieldDescription": {
               "title": "Command Description"
             },
