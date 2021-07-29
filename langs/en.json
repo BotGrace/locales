@@ -500,6 +500,13 @@
           "select": {
             "title": "Please pick a streamer.",
             "desc": "Please pick a streamer from the following menu below!.\nPress cancel to cancel adding a streamer or wait 15s to automaticlly cancel."
+          },
+          "selected": {
+            "title": "Selected {{- streamer}}",
+            "desc": "Adding the selected streamer to your notifcations list."
+          },
+          "cancel": {
+            "title": "Canceled"
           }
         }
       },
