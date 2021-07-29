@@ -483,6 +483,23 @@
             "fieldBetaNsfw": {
               "title": "Beta / NSFW / Premium"
             }
+          },
+          "pick": {
+            "title": "Mutiple Search Results Found."
+          }
+        },
+        "twitch": {
+          "maxed": {
+            "title": "Your maxed on your twitch notifcations!",
+            "desc": "It seems your maxed on twitch notifcations! Your limit is set to {{limit}}."
+          },
+          "maxedNonPremium": {
+            "title": "Your maxed on your twitch notifcations!",
+            "desc": "It seems your maxed on twitch notifcations! Your limit is {{limit}}.\nHave you tried upgrading to premium for additional twitch notifcations!"
+          },
+          "select": {
+            "title": "Please pick a streamer.",
+            "desc": "Please pick a streamer from the following menu below!.\nPress cancel to cancel adding a streamer or wait 15s to automaticlly cancel."
           }
         }
       },
@@ -514,6 +531,13 @@
         "loading": {
           "title": "Please Wait...",
           "desc": "Currently Loading, {{info}}."
+        },
+        "buttons": {
+          "cancel": "Cancel",
+          "stop": "Stop"
+        },
+        "menus": {
+          "twitchPicker": "Select a streamer"
         }
       }
     }
