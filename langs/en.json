@@ -517,6 +517,10 @@
           "list": {
             "title": "Current Twitch Notifications {{amount}}/{{max}}",
             "desc": "Twitch streamers that are currently being monitored for you:\n{{- list}}"
+          },
+          "removed": {
+            "title": "{{streamer}} has been removed",
+            "desc": "We will no longer monitor this streamer for when they go live."
           }
         }
       },
