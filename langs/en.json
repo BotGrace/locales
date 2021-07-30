@@ -522,6 +522,12 @@
             "title": "{{streamer}} has been removed",
             "desc": "We will no longer monitor this streamer for when they go live."
           }
+        },
+        "website": {
+          "content": "[Click Here]({{- site}}) to access our website!"
+        },
+        "dashboard": {
+          "content": "[Click Here]({{- site}}) to view the current status of the bot to see if were having any issues!"
         }
       },
       "defaultResponces": {
