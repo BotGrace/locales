@@ -513,6 +513,10 @@
             "title": "{{streamer}} has been added!",
             "desc": "The streamer named `{{- streamer}}` has been added to the twitch notifcations.\nYou will get a notifcation in <#{{channel}}> when the streamer goes live.",
             "footer": "Checks happen every 5 mins!"
+          },
+          "list": {
+            "title": "Current Twitch Notifications {{amount}}/{{max}}",
+            "desc": "Twitch streamers that are currently being monitored for you:\n{{- list}}"
           }
         }
       },
