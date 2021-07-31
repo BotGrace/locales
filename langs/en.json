@@ -565,6 +565,18 @@
         },
         "menus": {
           "twitchPicker": "Select a streamer"
+        },
+        "newGuild": {
+          "new": {
+            "title": "{{bot}} added!",
+            "descSlash": "Thanks for adding {{bot}} {{guild}}!\nYour slash commands are currently being added to your server.\nEnable NSFW to enable nsfw commands on your server!",
+            "descNoSlash": "Thanks for adding {{bot}} {{guild}}!\nYour slash commands had an issue adding, we will try to readd the slash commands in a bit.\nEnable NSFW to enable nsfw commands on your server!"
+          },
+          "reAdd": {
+            "title": "{{bot}} readded!",
+            "descSlash": "Thanks for readding {{bot}} {{guild}} we have loaded your pass settings automatically!\nYour slash commands are currently being added to your server.\nEnable NSFW to enable nsfw commands on your server!",
+            "descNoSlash": "Thanks for readding {{bot}} {{guild}} we have loaded your pass settings automatically!\nYour slash commands had an issue adding, we will try to readd the slash commands in a bit.\nEnable NSFW to enable nsfw commands on your server!"
+          }
         }
       }
     }
