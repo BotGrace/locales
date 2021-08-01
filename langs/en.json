@@ -401,7 +401,7 @@
         "nsfw": {
           "respond": {
             "title": "NSFW status has been updated!",
-            "desc": "NSFW status has been updated to {{- value}}"
+            "desc": "NSFW status has been updated to {{- value}}\nIt will take up to 1 hour to propagate to discord to hide/show NSFW in slash commands."
           }
         },
         "hug": {
