@@ -490,16 +490,16 @@
         },
         "twitch": {
           "maxed": {
-            "title": "Your maxed on your twitch notifcations!",
-            "desc": "It seems your maxed on twitch notifcations! Your limit is set to {{limit}}."
+            "title": "You're maxed on your twitch notifcations!",
+            "desc": "It seems you're maxed on twitch notifcations! Your limit is set to {{limit}}."
           },
           "maxedNonPremium": {
-            "title": "Your maxed on your twitch notifcations!",
-            "desc": "It seems your maxed on twitch notifcations! Your limit is {{limit}}.\nHave you tried upgrading to premium for additional twitch notifcations!"
+            "title": "You're maxed on your twitch notifcations!",
+            "desc": "It seems you're maxed on twitch notifcations! Your limit is {{limit}}.\nHave you tried upgrading to premium for additional twitch notifcations!"
           },
           "select": {
             "title": "Please pick a streamer.",
-            "desc": "Please pick a streamer from the following menu below!.\nPress cancel to cancel adding a streamer or wait 15s to automaticlly cancel."
+            "desc": "Please pick a streamer from the following menu below!.\nPress cancel to cancel adding a streamer or wait 15s to automatically cancel."
           },
           "selected": {
             "title": "Selected {{- streamer}}",
@@ -569,13 +569,13 @@
         "newGuild": {
           "new": {
             "title": "{{bot}} added!",
-            "descSlash": "Thanks for adding {{bot}} {{guild}}!\nYour slash commands are currently being added to your server.\nEnable NSFW to enable nsfw commands on your server!",
-            "descNoSlash": "Thanks for adding {{bot}} {{guild}}!\nYour slash commands had an issue adding, we will try to readd the slash commands in a bit.\nEnable NSFW to enable nsfw commands on your server!"
+            "descSlash": "Thanks for adding {{bot}}, {{guild}}!\nYour slash commands are currently being added to your server.\nEnable NSFW to enable nsfw commands on your server!",
+            "descNoSlash": "Thanks for adding {{bot}}, {{guild}}!\nYour slash commands had an issue adding, we will try to readd the slash commands in a bit.\nEnable NSFW to enable nsfw commands on your server!"
           },
           "reAdd": {
             "title": "{{bot}} readded!",
-            "descSlash": "Thanks for readding {{bot}} {{guild}} we have loaded your pass settings automatically!\nYour slash commands are currently being added to your server.\nEnable NSFW to enable nsfw commands on your server!",
-            "descNoSlash": "Thanks for readding {{bot}} {{guild}} we have loaded your pass settings automatically!\nYour slash commands had an issue adding, we will try to readd the slash commands in a bit.\nEnable NSFW to enable nsfw commands on your server!"
+            "descSlash": "Thanks for readding {{bot}}, {{guild}} we have loaded your past settings automatically!\nYour slash commands are currently being added to your server.\nEnable NSFW to enable nsfw commands on your server!",
+            "descNoSlash": "Thanks for readding {{bot}}, {{guild}} we have loaded your past settings automatically!\nYour slash commands had an issue adding, we will try to readd the slash commands in a bit.\nEnable NSFW to enable nsfw commands on your server!"
           }
         }
       }
