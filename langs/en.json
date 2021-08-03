@@ -461,6 +461,11 @@
           }
         },
         "help": {
+          "noSearch": {
+            "title": "Help Command",
+            "desc": "Here is a list of our help commands!\n**For the privacy of peoples identity most NSFW commands are anime based!**\nMost **System** commands are for Grace Bot Staff Only\n**Quick Links**: [Dashboard](https://gracebot.net/dashboard/{{id}}?ref=botcmd), [Leaderboard](https://gracebot.net/leaderboard/{{id}}/?ref=botcmd), [Music Queue](https://gracebot.net/queue/{{id}}/?ref=botcmd), [Commands](https://gracebot.net/commands?shard={{shard}}&ref=botcmd)",
+            "footer": "Select from the menu below to see a command."
+          },
           "noCommands": {
             "title": "No Commands Found!",
             "desc": "The query `{{search}}` came up with no results. \nPlease try again later or [**Click Here**](https://gracebot.net/commands?search={{- search}}) to view our online command page!."
@@ -528,6 +533,51 @@
         },
         "dashboard": {
           "content": "[Click Here]({{- site}}) to view the current status of the bot to see if were having any issues!"
+        },
+        "commands": {
+          "content": "[Click Here]({{- site}}) to view the online list of our commands for our bot!"
+        },
+        "kick": {
+          "areYouSure": {
+            "title": "Are you sure?",
+            "desc": "Are you sure you want to kick {{target}}?\nThis will remove them form the server requireing them to rejoin.",
+            "footer": "Doing this will force the user to be removed."
+          },
+          "responce": {
+            "title": "Kicked {{target}}.",
+            "desc": "{{target}} has been kicked from this server for, {{reason}}."
+          },
+          "toUser": {
+            "content": "You have been kicked from **{{server}}** by {{mod}} for **{{reason}}**"
+          },
+          "cancel": {
+            "title": "Kick has been canceled",
+            "desc": "Kick has been canceled because the cancel button was pressed or 15s has gone by without a reasponce."
+          },
+          "log": {
+            "title": "Kicked {{target}}.",
+            "desc": "{{target}} has been kicked from this server for, {{reason}} by {{mod}}."
+          }
+        },
+        "remind": {
+          "list": {
+            "title": "Current Reminders {{amount}}/{{max}}",
+            "desc": "The list of reminders that we will remind you about.:\n{{- list}}",
+            "footer": "Make sure you have DM's enabled."
+          },
+          "notFound": {
+            "title": "Reminder not found",
+            "desc": "The reminder {{id}} was not found."
+          },
+          "deleted": {
+            "title": "Reminder Deleted",
+            "desc": "The reminder {{id}} was deleted.\nWe will not remind you about this reminder."
+          },
+          "added": {
+            "title": "Reminder added!",
+            "desc": "You will be reminded in {{date}}!",
+            "footer": "Make sure your DM's are opened for us!"
+          }
         }
       },
       "defaultResponces": {
