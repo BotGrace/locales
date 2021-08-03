@@ -464,7 +464,7 @@
           "noSearch": {
             "title": "Help Command",
             "desc": "Here is a list of our help commands!\n**For the privacy of peoples identity most NSFW commands are anime based!**\nMost **System** commands are for Grace Bot Staff Only\n**Quick Links**: [Dashboard](https://gracebot.net/dashboard/{{id}}?ref=botcmd), [Leaderboard](https://gracebot.net/leaderboard/{{id}}/?ref=botcmd), [Music Queue](https://gracebot.net/queue/{{id}}/?ref=botcmd), [Commands](https://gracebot.net/commands?shard={{shard}}&ref=botcmd)",
-            "footer": "Select from the menu below to see a command."
+            "footer": "Click the button below to view our online command menu."
           },
           "noCommands": {
             "title": "No Commands Found!",
