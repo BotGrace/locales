@@ -490,7 +490,12 @@
             }
           },
           "pick": {
-            "title": "Mutiple Search Results Found."
+            "title": "Mutiple Search Results Found.",
+            "desc": "Please select from the menu below. If no responce after 15s or cancel button is pressed we will cancel this search."
+          },
+          "pickCancel": {
+            "title": "The search has been canceled.",
+            "desc": "The search was canceled please rerun the command."
           }
         },
         "twitch": {
@@ -614,7 +619,8 @@
           "stop": "Stop"
         },
         "menus": {
-          "twitchPicker": "Select a streamer"
+          "twitchPicker": "Select a streamer",
+          "helpPicker": "Select a command/category"
         },
         "newGuild": {
           "new": {
