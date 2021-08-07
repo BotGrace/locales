@@ -596,6 +596,28 @@
             "desc": "{{target}} has been kicked from this server for, {{reason}} by {{mod}}."
           }
         },
+        "ban": {
+          "areYouSure": {
+            "title": "Are you sure?",
+            "desc": "Are you sure you want to banned {{target}}?\nThis will remove them form the server permanently.",
+            "footer": "Doing this will force the user to be removed."
+          },
+          "responce": {
+            "title": "Banned {{target}}.",
+            "desc": "{{target}} has been banend from this server for, {{reason}}."
+          },
+          "toUser": {
+            "content": "You have been banned from **{{server}}** by {{mod}} for **{{reason}}**"
+          },
+          "cancel": {
+            "title": "Ban has been canceled",
+            "desc": "Ban has been canceled because the cancel button was pressed or 15s has gone by without a reasponce."
+          },
+          "log": {
+            "title": "Banned {{target}}.",
+            "desc": "{{target}} has been banned from this server for, {{reason}} by {{mod}}."
+          }
+        },
         "remind": {
           "list": {
             "title": "Current Reminders {{amount}}/{{max}}",
