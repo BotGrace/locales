@@ -582,10 +582,10 @@
           },
           "responce": {
             "title": "Kicked {{target}}.",
-            "desc": "{{target}} has been kicked from this server for, {{reason}}."
+            "desc": "{{target}} has been kicked from this server for, {{reason}}, case **#{{case}}**."
           },
           "toUser": {
-            "content": "You have been kicked from **{{server}}** by {{mod}} for **{{reason}}**"
+            "content": "You have been kicked from **{{server}}** by {{mod}} for **{{reason}}**, case **#{{case}}**"
           },
           "cancel": {
             "title": "Kick has been canceled",
@@ -593,7 +593,7 @@
           },
           "log": {
             "title": "Kicked {{target}}.",
-            "desc": "{{target}} has been kicked from this server for, {{reason}} by {{mod}}."
+            "desc": "{{target}} has been kicked from this server for, {{reason}} by {{mod}}.\nCase: **#{{case}}**"
           }
         },
         "ban": {
@@ -604,10 +604,10 @@
           },
           "responce": {
             "title": "Banned {{target}}.",
-            "desc": "{{target}} has been banend from this server for, {{reason}}."
+            "desc": "{{target}} has been banend from this server for, {{reason}}, case **#{{case}}**."
           },
           "toUser": {
-            "content": "You have been banned from **{{server}}** by {{mod}} for **{{reason}}**"
+            "content": "You have been banned from **{{server}}** by {{mod}} for **{{reason}}**, case **#{{case}}**."
           },
           "cancel": {
             "title": "Ban has been canceled",
@@ -615,7 +615,7 @@
           },
           "log": {
             "title": "Banned {{target}}.",
-            "desc": "{{target}} has been banned from this server for, {{reason}} by {{mod}}."
+            "desc": "{{target}} has been banned from this server for, {{reason}} by {{mod}}.\nCase: **#{{case}}**"
           }
         },
         "remind": {
