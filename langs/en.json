@@ -398,6 +398,16 @@
             "desc": "Successfully deleted {{msgs}}.\n[Click Here]({{- url}}) to access your archive.\n`Archive ID: {{id}}`\n**Expires in 30days**"
           }
         },
+        "archive": {
+          "zero": {
+            "title": "No messages found.",
+            "desc": "No messages were found to archive."
+          },
+          "respond": {
+            "title": "Deleted {{msgs}} archived.",
+            "desc": "Successfully archived {{msgs}}.\n[Click Here]({{- url}}) to access your archive.\n`Archive ID: {{id}}`\n**Expires in 30days**"
+          }
+        },
         "nsfw": {
           "respond": {
             "title": "NSFW status has been updated!",
