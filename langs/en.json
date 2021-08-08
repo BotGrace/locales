@@ -618,6 +618,50 @@
             "desc": "{{target}} has been banned from this server for, {{reason}} by {{mod}}.\nCase: **#{{case}}**"
           }
         },
+        "warn": {
+          "areYouSure": {
+            "title": "Are you sure?",
+            "desc": "Are you sure you want to warn {{target}}?",
+            "footer": "Doing this will warn the user and it will be cased."
+          },
+          "responce": {
+            "title": "Warned {{target}}.",
+            "desc": "{{target}} has been warned for, {{reason}}, case **#{{case}}**."
+          },
+          "toUser": {
+            "content": "You have been warned from **{{server}}** by {{mod}} for **{{reason}}**, case **#{{case}}**."
+          },
+          "cancel": {
+            "title": "Warn has been canceled",
+            "desc": "Warn has been canceled because the cancel button was pressed or 15s has gone by without a reasponce."
+          },
+          "log": {
+            "title": "Warned {{target}}.",
+            "desc": "{{target}} has been warned for, {{reason}} by {{mod}}.\nCase: **#{{case}}**"
+          }
+        },
+        "mute": {
+          "areYouSure": {
+            "title": "Are you sure?",
+            "desc": "Are you sure you want to mute {{target}}?\nThis will add the muted role that you picked in the settings to the user.",
+            "footer": "Doing this will mute the user and it will be cased."
+          },
+          "responce": {
+            "title": "Muted {{target}}.",
+            "desc": "{{target}} has been muted until {{time}}, case **#{{case}}**"
+          },
+          "toUser": {
+            "content": "You have been muted from **{{server}}** by {{mod}}, case **#{{case}}**.\nYou will be unmuted in {{time}}."
+          },
+          "cancel": {
+            "title": "Mute has been canceled",
+            "desc": "Mute has been canceled because the cancel button was pressed or 15s has gone by without a reasponce."
+          },
+          "log": {
+            "title": "Muted {{target}}.",
+            "desc": "{{target}} has been muted until {{time}}, by {{mod}}.\nCase: **#{{case}}**"
+          }
+        },
         "remind": {
           "list": {
             "title": "Current Reminders {{amount}}/{{max}}",
