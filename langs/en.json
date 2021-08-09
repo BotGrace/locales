@@ -691,6 +691,16 @@
             "desc": "You will be reminded in {{date}}!",
             "footer": "Make sure your DM's are opened for us!"
           }
+        },
+        "tag": {
+          "list": {
+            "title": "Tag List! {{amount}}/{{max}}",
+            "desc": "Here is a list of your tags (**Separated by `,`**).\n{{- list}}"
+          },
+          "formats": {
+            "title": "List of foramts!",
+            "desc": "Here is a list of formats that can be used in the message content of the tag!\n{{- formats}}"
+          }
         }
       },
       "defaultResponces": {
