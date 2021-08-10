@@ -692,6 +692,32 @@
             "footer": "Make sure your DM's are opened for us!"
           }
         },
+        "whitelist": {
+          "list": {
+            "title": "List of whitelisted users.",
+            "desc": "Here is a list of your whitelisted users (**Separated by `,`**).\n{{- list}}"
+          },
+          "noListed": {
+            "title": "No Users Found!",
+            "desc": "You currently dont have any whitelisted users for this server."
+          },
+          "deleteNotFound": {
+            "title": "User not Found!",
+            "desc": "The user {{target}} wasnt found.\nPlease make sure the user listed exist in the database."
+          },
+          "deleted": {
+            "title": "Sucessfully Deleted user!",
+            "desc": "The user {{target}} was deleted."
+          },
+          "exist": {
+            "title": "User already exist!",
+            "desc": "The user {{target}} already exist."
+          },
+          "added": {
+            "title": "User has been added!",
+            "desc": "The user {{target}} has been sucessfully added!\nMay take up to 1hour to fully update!"
+          }
+        },
         "tag": {
           "list": {
             "title": "Tag List! {{amount}}/{{max}}",
