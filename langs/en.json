@@ -725,6 +725,28 @@
             "title": "Tag Created!",
             "desc": "The tag {{tag}} has been created! You can run it by using `{{prefix}}{{tag}}`!\nCustom Commands will soon work with slash commands."
           }
+        },
+        "userinfo": {
+          "title": "",
+          "desc": "Here is everything we have on {{target}}!",
+          "fieldNickname": {
+            "title": "Nickname"
+          },
+          "fieldOwner": {
+            "title": "Server Owner"
+          },
+          "fieldKickBan": {
+            "title": "Kickable and Bannable"
+          },
+          "fieldJoined": {
+            "title": "Joined Date"
+          },
+          "fieldCreated": {
+            "title": "Created Date"
+          },
+          "fieldRoles": {
+            "title": "Server Role's Assigned"
+          }
         }
       },
       "defaultResponces": {
