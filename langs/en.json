@@ -753,7 +753,7 @@
           }
         },
         "userinfo": {
-          "title": "",
+          "title": "User Lookup",
           "desc": "Here is everything we have on {{target}}!",
           "fieldNickname": {
             "title": "Nickname"
