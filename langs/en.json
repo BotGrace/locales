@@ -700,6 +700,30 @@
           "formats": {
             "title": "List of foramts!",
             "desc": "Here is a list of formats that can be used in the message content of the tag!\n{{- formats}}"
+          },
+          "noTags": {
+            "title": "No Tags Found!",
+            "desc": "You currently dont have any tags for this server."
+          },
+          "deleteNotFound": {
+            "title": "No Tags Found!",
+            "desc": "The tag {{tag}} wasnt found.\nPlease make sure you capitalize the command name correctly."
+          },
+          "deleted": {
+            "title": "Sucessfully Deleted Tag!",
+            "desc": "The tag {{tag}} was deleted.\nIt may take up to 1hour for any changes to show."
+          },
+          "maxed": {
+            "title": "You're maxed on your custom actions!",
+            "desc": "It seems you're maxed on custom actions! Your limit is {{limit}}.\nHave you tried upgrading to premium for additional custom actions!"
+          },
+          "alreadyExist": {
+            "title": "The command name already exist!",
+            "desc": "The command name {{tag}} already exist!"
+          },
+          "created": {
+            "title": "Tag Created!",
+            "desc": "The tag {{tag}} has been created! You can run it by using `{{prefix}}{{tag}}`!\nCustom Commands will soon work with slash commands."
           }
         }
       },
