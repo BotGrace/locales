@@ -795,7 +795,7 @@
         },
         "missingValues": {
           "title": "Arguments Values",
-          "desc": "Sorry, but your currently missing the following Arguments/Values, `{{values || error}}`"
+          "desc": "Sorry, but your currently missing the following Arguments/Values, `{{values}}`"
         },
         "dashboard": {
           "button": "Dashboard Page"
