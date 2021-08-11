@@ -773,6 +773,22 @@
           "fieldRoles": {
             "title": "Server Role's Assigned"
           }
+        },
+        "muteSettings": {
+          "status": {
+            "title": "The current status of mute",
+            "desc": "Here is the current status of the mute system!\nRole: {{- role}}"
+          },
+          "respond": {
+            "title": "Mute Role has been updated!",
+            "desc": "Mute Role has been update to <@&{{id}}>"
+          }
+        },
+        "modSettings": {
+          "respond": {
+            "title": "{{action}} has been updated!",
+            "desc": "{{action}} has been update to {{- value}}"
+          }
         }
       },
       "defaultResponces": {
