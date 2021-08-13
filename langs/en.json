@@ -114,7 +114,7 @@
       },
       "xp": {
         "title": "XP Leveling",
-        "desc": "Configure Grace to enchant your community members and let your members climb to the top with XP Leveling! Reward your most active members with free and unlimited role rewards and online"
+        "desc": "Configure Grace to enchant your community members and let your members climb to the top with XP Leveling! Reward your most active members with free and unlimited role rewards!"
       },
       "music": {
         "title": "HD Music",
@@ -501,11 +501,11 @@
           },
           "pick": {
             "title": "Mutiple Search Results Found.",
-            "desc": "Please select from the menu below. If no responce after 15s or cancel button is pressed we will cancel this search."
+            "desc": "Please select from the menu below. If no response after 15s, or cancel button is pressed, we will cancel this search."
           },
           "pickCancel": {
             "title": "The search has been canceled.",
-            "desc": "The search was canceled please rerun the command."
+            "desc": "The search was canceled, please rerun the command."
           }
         },
         "twitch": {
@@ -527,11 +527,11 @@
           },
           "cancel": {
             "title": "Select canceled",
-            "desc": "The twitch select or has been canceled."
+            "desc": "The twitch select has been canceled."
           },
           "resolved": {
             "title": "{{streamer}} has been added!",
-            "desc": "The streamer named `{{- streamer}}` has been added to the twitch notifcations.\nYou will get a notifcation in <#{{channel}}> when the streamer goes live.",
+            "desc": "The streamer named `{{- streamer}}` has been added to the twitch notiifcations.\nYou will get a notification in <#{{channel}}> when the streamer goes live.",
             "footer": "Checks happen every 5 mins!"
           },
           "list": {
@@ -550,7 +550,7 @@
           },
           "maxed": {
             "title": "You're maxed on your reddit notifcations!",
-            "desc": "It seems you're maxed on reddit notifcations! Your limit is set to {{limit}}."
+            "desc": "It seems you're maxed on reddit notifications! Your limit is set to {{limit}}."
           },
           "maxedNonPremium": {
             "title": "You're maxed on your reddit notifcations!",
@@ -558,7 +558,7 @@
           },
           "resolved": {
             "title": "{{subreddit}} has been added!",
-            "desc": "The subreddit named `{{- subreddit}}` has been added to the reddit notifcations.\nYou will get a notifcation in <#{{channel}}> when a new post is in `{{- subreddit}}`.",
+            "desc": "The subreddit named `{{- subreddit}}` has been added to the reddit notifications.\nYou will get a notification in <#{{channel}}> when a new post is in `{{- subreddit}}`.",
             "footer": "Checks happen every 5 mins!"
           },
           "areYouSure": {
@@ -568,11 +568,11 @@
           },
           "cancel": {
             "title": "Removal of subreddit has been canceled",
-            "desc": "Removal has been canceled because the cancel button was pressed or 15s has gone by without a reasponce."
+            "desc": "Removal has been canceled because the cancel button was pressed or 15s has gone by without a response."
           },
           "removed": {
             "title": "{{subreddit}} has been removed",
-            "desc": "We will no longer monitor this subreddit for new post."
+            "desc": "We will no longer monitor this subreddit for new posts."
           }
         },
         "website": {
@@ -587,7 +587,7 @@
         "kick": {
           "areYouSure": {
             "title": "Are you sure?",
-            "desc": "Are you sure you want to kick {{target}}?\nThis will remove them form the server requireing them to rejoin.",
+            "desc": "Are you sure you want to kick {{target}}?\nThis will remove them from the server requiring them to rejoin.",
             "footer": "Doing this will force the user to be removed."
           },
           "responce": {
@@ -599,7 +599,7 @@
           },
           "cancel": {
             "title": "Kick has been canceled",
-            "desc": "Kick has been canceled because the cancel button was pressed or 15s has gone by without a reasponce."
+            "desc": "Kick has been canceled because the cancel button was pressed or 15s has gone by without a response."
           },
           "log": {
             "title": "Kicked {{target}}.",
@@ -609,19 +609,19 @@
         "ban": {
           "areYouSure": {
             "title": "Are you sure?",
-            "desc": "Are you sure you want to banned {{target}}?\nThis will remove them form the server permanently.",
+            "desc": "Are you sure you want to banned {{target}}?\nThis will remove them from the server permanently.",
             "footer": "Doing this will force the user to be removed."
           },
           "responce": {
             "title": "Banned {{target}}.",
-            "desc": "{{target}} has been banend from this server for, {{reason}}, case **#{{case}}**."
+            "desc": "{{target}} has been banned from this server for, {{reason}}, case **#{{case}}**."
           },
           "toUser": {
             "content": "You have been banned from **{{server}}** by {{mod}} for **{{reason}}**, case **#{{case}}**."
           },
           "cancel": {
             "title": "Ban has been canceled",
-            "desc": "Ban has been canceled because the cancel button was pressed or 15s has gone by without a reasponce."
+            "desc": "Ban has been canceled because the cancel button was pressed or 15s has gone by without a response."
           },
           "log": {
             "title": "Banned {{target}}.",
@@ -643,7 +643,7 @@
           },
           "cancel": {
             "title": "Warn has been canceled",
-            "desc": "Warn has been canceled because the cancel button was pressed or 15s has gone by without a reasponce."
+            "desc": "Warn has been canceled because the cancel button was pressed or 15s has gone by without a response."
           },
           "log": {
             "title": "Warned {{target}}.",
@@ -665,7 +665,7 @@
           },
           "cancel": {
             "title": "Mute has been canceled",
-            "desc": "Mute has been canceled because the cancel button was pressed or 15s has gone by without a reasponce."
+            "desc": "Mute has been canceled because the cancel button was pressed or 15s has gone by without a response."
           },
           "log": {
             "title": "Muted {{target}}.",
@@ -839,7 +839,7 @@
         },
         "missingValues": {
           "title": "Arguments Values",
-          "desc": "Sorry, but your currently missing the following Arguments/Values, `{{values}}`"
+          "desc": "Sorry, but you're currently missing the following Arguments/Values, `{{values}}`"
         },
         "dashboard": {
           "button": "Dashboard Page"
