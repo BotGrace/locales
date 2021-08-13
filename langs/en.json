@@ -692,6 +692,34 @@
             "footer": "Make sure your DM's are opened for us!"
           }
         },
+        "case": {
+          "updated": {
+            "title": "Case #{{id}} updated!",
+            "desc": "Case {{action}} has been updated from:\n`{{before}}`\nTo:`{{after}}`"
+          },
+          "info": {
+            "title": "Case #{{id}}",
+            "fieldStatus": {
+              "title": "Status of case"
+            },
+            "fieldType": {
+              "title": "Type of case"
+            },
+            "fieldUser": {
+              "title": "Punished User"
+            },
+            "fieldMod": {
+              "title": "Mod of case"
+            },
+            "fieldCreated": {
+              "title": "Creation of case"
+            },
+            "fieldEnded": {
+              "title": "End time of case"
+            },
+            "footer": "Update Case {{id}} with the case command!"
+          }
+        },
         "whitelist": {
           "list": {
             "title": "List of whitelisted users.",
