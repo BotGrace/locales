@@ -838,6 +838,34 @@
           "respond": {
             "title": "{{action}} has been updated!",
             "desc": "{{action}} has been update to {{- value}}"
+          },
+          "filterInfo": {
+            "title": "Blacklist settings",
+            "fieldList": {
+              "title": "Blacklisted Words"
+            },
+            "fieldStatus": {
+              "title": "Blacklist Status"
+            },
+            "fieldRoles": {
+              "title": "Blacklist bypassed Roles"
+            }
+          },
+          "filterAdded": {
+            "title": "Added word to blacklist!",
+            "desc": "The word ||`{{word}}`|| has been added to the blacklist!"
+          },
+          "filterRemove": {
+            "title": "Removed word from blacklist!",
+            "desc": "The word ||`{{word}}`|| has been removed from the blacklist!"
+          },
+          "filterRoleAdd": {
+            "title": "Role Added to bypass!",
+            "desc": "The role <@&{{- id}}> will now bypass blacklisted words!"
+          },
+          "filterRoleRemove": {
+            "title": "Removed Role to bypass!",
+            "desc": "The role <@&{{- id}}> will no longer bypass blacklisted words!"
           }
         }
       },
