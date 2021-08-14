@@ -1,9 +1,9 @@
 {
   "name": "locales",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "The Grace locales",
   "main": "index.js",
-  "repository": "https://github.com/Dream-cake/Grace-locales.git",
+  "repository": "https://github.com/BotGrace/locales",
   "author": "Spooder",
   "license": "MIT",
   "dependencies": {}
