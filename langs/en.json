@@ -876,6 +876,7 @@
           "msg": "You can now vote for {{client}}, here!: {{- link}}",
           "msgButton": "Vote Now!"
         },
+        "bug": "Thanks for finding a bug (shard: {{shard}}, version: {{version}})!\nFeel free to report it to us on our discord server! _Bug report page soon!_",
         "commandMissing": "The `{{command}}` command, was not found. Try again later!",
         "error": {
           "title": "Oops, we have an issue!",
