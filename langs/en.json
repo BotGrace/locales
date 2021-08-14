@@ -114,7 +114,7 @@
       },
       "xp": {
         "title": "XP Leveling",
-        "desc": "Configure Grace to enchant your community members and let your members climb to the top with XP Leveling! Reward your most active members with free and unlimited role rewards!"
+        "desc": "Configure Grace to enchant your community and let your members climb to the top with XP Leveling! Reward your most active members with free and unlimited role rewards and online"
       },
       "music": {
         "title": "HD Music",
@@ -746,6 +746,28 @@
             "desc": "The user {{target}} has been sucessfully added!\nMay take up to 1hour to fully update!"
           }
         },
+        "mroles": {
+          "list": {
+            "title": "Message Role List! {{amount}}/{{max}}",
+            "desc": "Here is a list of your message roles (**Separated by `,`**).\n{{- list}}"
+          },
+          "deleteNotFound": {
+            "title": "No Message Roles Found!",
+            "desc": "The message role was not correct!\nPlease make sure you inserted the correct channel/channel id, message id, and emoji that was used."
+          },
+          "deleted": {
+            "title": "Sucessfully Deleted Message role!",
+            "desc": "The message role was deleted.\nIt may take up to 1hour for any changes to show."
+          },
+          "alreadyExist": {
+            "title": "The message role already exist!",
+            "desc": "The message role already exist!"
+          },
+          "created": {
+            "title": "Message Role Created!",
+            "desc": "The Message Role was created, it may take up to 1hour for the bot to sync with the message!"
+          }
+        },
         "tag": {
           "list": {
             "title": "Tag List! {{amount}}/{{max}}",
@@ -816,6 +838,34 @@
           "respond": {
             "title": "{{action}} has been updated!",
             "desc": "{{action}} has been update to {{- value}}"
+          },
+          "filterInfo": {
+            "title": "Blacklist settings",
+            "fieldList": {
+              "title": "Blacklisted Words"
+            },
+            "fieldStatus": {
+              "title": "Blacklist Status"
+            },
+            "fieldRoles": {
+              "title": "Blacklist bypassed Roles"
+            }
+          },
+          "filterAdded": {
+            "title": "Added word to blacklist!",
+            "desc": "The word ||`{{word}}`|| has been added to the blacklist!"
+          },
+          "filterRemove": {
+            "title": "Removed word from blacklist!",
+            "desc": "The word ||`{{word}}`|| has been removed from the blacklist!"
+          },
+          "filterRoleAdd": {
+            "title": "Role Added to bypass!",
+            "desc": "The role <@&{{- id}}> will now bypass blacklisted words!"
+          },
+          "filterRoleRemove": {
+            "title": "Removed Role to bypass!",
+            "desc": "The role <@&{{- id}}> will no longer bypass blacklisted words!"
           }
         }
       },
