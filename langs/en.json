@@ -576,13 +576,13 @@
           }
         },
         "website": {
-          "respond": "[Click Here]({{- site}}) to access our website!"
+          "respond": "Click button below to access our website!"
         },
         "dashboard": {
-          "respond": "[Click Here]({{- site}}) to view the current status of the bot to see if were having any issues!"
+          "respond": "Click button below to view the current status of the bot to see if were having any issues!"
         },
         "commands": {
-          "respond": "[Click Here]({{- site}}) to view the online list of our commands for our bot!"
+          "respond": "Click button below to view the online list of our commands for our bot!"
         },
         "kick": {
           "areYouSure": {
