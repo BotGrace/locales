@@ -229,7 +229,7 @@
           },
           "playing": {
             "title": "🎶 Now Playing{{extraMsg}} 🎶",
-            "desc": "[{{- title}}]({{- link}}) by {{- author}} requested by **<@{{- user}}>**\n with {{- specialArgs}} enabled on node {{- node}}!\n`{{- pos}}/{{- posEnd}}`{{- extraMsg}}",
+            "desc": "[{{- title}}]({{- link}}) by {{- author}} requested by **<@{{- user}}>**\n with {{- specialArgs}} enabled on music node {{- node}}!\n`{{- pos}}/{{- posEnd}}`{{- extraMsg}}",
             "footer": "{{queueTotal}} songs left!"
           },
           "errorPlaying": {
@@ -273,7 +273,7 @@
           },
           "currentlyPlaying": {
             "title": "💿 Now Playing{{extraMsg}} 💿",
-            "desc": "[{{- title}}]({{- link}}) by {{- author}}, \nrequested by **<@{{- user}}>**\n`{{timeBar}} {{- pos}}/{{- posEnd}}`{{- extraMsg}}",
+            "desc": "[{{- title}}]({{- link}}) by {{- author}}, \nrequested by **<@{{- user}}>** on music node {{- node}}\n`{{timeBar}} {{- pos}}/{{- posEnd}}`{{- extraMsg}}",
             "footer": "{{queueTotal}} songs left!"
           }
         },
