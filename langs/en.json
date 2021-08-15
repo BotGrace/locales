@@ -202,7 +202,7 @@
           },
           "noNode": {
             "title": "Cant Join!",
-            "desc": "Looks like I cant find a suitable music node to join!\n**Try again in 5 mins**"
+            "desc": "Looks like I cant find a suitable music node to join!\n**Try again in 5 mins and try a different region (US-West Recommended)**"
           },
           "invaildProvider": {
             "title": "Provider Invaild",
@@ -229,7 +229,7 @@
           },
           "playing": {
             "title": "🎶 Now Playing{{extraMsg}} 🎶",
-            "desc": "[{{- title}}]({{- link}}) by {{- author}} requested by **<@{{- user}}>**\n with {{- specialArgs}} enabled!\n`{{- pos}}/{{- posEnd}}`{{- extraMsg}}",
+            "desc": "[{{- title}}]({{- link}}) by {{- author}} requested by **<@{{- user}}>**\n with {{- specialArgs}} enabled on node {{- node}}!\n`{{- pos}}/{{- posEnd}}`{{- extraMsg}}",
             "footer": "{{queueTotal}} songs left!"
           },
           "errorPlaying": {
