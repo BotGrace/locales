@@ -178,6 +178,12 @@
             "desc": "Your new prefix is `{{prefix}}`\nWe recommend using slash commands! Type `/` to get started."
           }
         },
+        "slowmode": {
+          "respond": {
+            "title": "Slowmode updated!",
+            "desc": "This channels slowmode is now set to {{time}}"
+          }
+        },
         "suggestSettings": {
           "respond": {
             "title": "{{action}} has been updated!",
