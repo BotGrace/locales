@@ -190,6 +190,12 @@
             "desc": "{{action}} has been update to {{- value}}"
           }
         },
+        "avatar": {
+          "respond": {
+            "title": "Avatar found!",
+            "desc": "Here is {{user}}'s avatar!"
+          }
+        },
         "level": {
           "notFound": {
             "title": "User Not Found!",
@@ -583,6 +589,9 @@
         },
         "website": {
           "respond": "Click button below to access our website!"
+        },
+        "support": {
+          "respond": "Click button below to join our support discord!"
         },
         "dashboard": {
           "respond": "Click button below to view the current status of the bot to see if were having any issues!"
