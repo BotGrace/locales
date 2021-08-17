@@ -181,7 +181,7 @@
         "slowmode": {
           "respond": {
             "title": "Slowmode updated!",
-            "desc": "This channels slowmode is now set to {{time}}"
+            "desc": "This channel's slowmode has been updated!"
           }
         },
         "suggestSettings": {
