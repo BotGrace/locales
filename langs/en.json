@@ -154,6 +154,10 @@
           "button": "Profile Page",
           "content": "{{name}}'s Profile: {{- url}}/profile/{{id}}/ "
         },
+        "reportUser": {
+          "button": "Report User",
+          "content": "Report {{name}} To Grace Bot Staff: {{- url}}/report?reportId={{id}}&type=user"
+        },
         "suggest": {
           "disabled": {
             "title": "Suggestions are disabled!",
