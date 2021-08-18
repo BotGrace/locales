@@ -907,7 +907,7 @@
           "unknown": "An unknown error has happened, Try again later!",
           "known": "An issue has happened, Try again later!\nError: {{- error}}"
         },
-        "iAmMissingPermissions": "I am missing permissions. To run this action I need the following permissions. `{{permissions}}`\nPlease check Bots Perms & Channel Perms to ensure I have the perms request. Grace Bot may not work correctly until then.",
+        "iAmMissingPermissions": "I am missing permissions. To run this action I need the following permissions. `{{permissions}}`\nPlease check Bots Perms & Channel Perms to ensure I have the perms requested. Grace Bot may not work correctly until then.",
         "noAccess": {
           "title": "Restricted Access",
           "desc": "Sorry, you do not currently have permission to access this. This action requires, {{- requires}}"
