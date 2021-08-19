@@ -605,8 +605,8 @@
         },
         "slashcommand": {
           "title": "Slash Command Sync Status",
-          "neverSynced": "Slash commands were never synced, we will try to synced very soon.\nIf you need help please join our support discord!\nYou may need to reinvite the bot for slash commands to work.\nIf you have admin perms or if the bot was invited with admin perms we recommend inviting **with admin perms**.\n**PLEASE MAKE SURE `@everyone` ROLE HAS `USE_APPLICATION_COMMANDS` PERMS IN ORDER TO USE SLASH COMMANDS**",
-          "synced": "Slash commands were last synced **{{- date}}**, and will be resynced every few hours if any settings change that disable/enable commands were updated.\nIf you need help please join our support discord!\nIf you have admin perms or if the bot was invited with admin perms we recommend inviting **with admin perms**.\n**PLEASE MAKE SURE `@everyone` ROLE HAS `USE_APPLICATION_COMMANDS` PERMS IN ORDER TO USE SLASH COMMANDS**"
+          "neverSynced": "Slash commands were never synced, we will try to synced very soon.\nIf you need help please join our support discord!\nYou may need to reinvite the bot for slash commands to work.\nIf you have admin perms or if the bot was invited with admin perms we recommend inviting **with admin perms**.\n**PLEASE MAKE SURE `@everyone` ROLE & ALL OTHER ROLES HAVE `USE_APPLICATION_COMMANDS` PERMS IN ORDER TO USE SLASH COMMANDS**",
+          "synced": "Slash commands were last synced **{{- date}}**, and will be resynced every few hours if any settings change that disable/enable commands were updated.\nIf you need help please join our support discord!\nIf you have admin perms or if the bot was invited with admin perms we recommend inviting **with admin perms**.\n**PLEASE MAKE SURE `@everyone` ROLE & ALL OTHER ROLES HAVE `USE_APPLICATION_COMMANDS` PERMS IN ORDER TO USE SLASH COMMANDS**"
         },
         "kick": {
           "areYouSure": {
