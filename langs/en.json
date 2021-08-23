@@ -280,6 +280,10 @@
           "sameVC": {
             "title": "Not in the same VC!",
             "desc": "We must be in the same voice channel!"
+          },
+          "spotifyLoad": {
+            "title": "Currently Loading Playlist/Track",
+            "desc": "This can take up to a few seconds depending on how big your playlist is. (Single track will be almost inst).\nGuilds Converter limit: {{limit}}"
           }
         },
         "playing": {
