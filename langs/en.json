@@ -252,6 +252,10 @@
             "title": "❌ Song Error! ❌",
             "desc": "Couldnt play that song! This song might be restricted!{{- extraMSG}}"
           },
+          "searchFoundNothing": {
+            "title": "❌ No results found! ❌",
+            "desc": "It looks like no results have been found when searching!"
+          },
           "leftOnlyPersn": {
             "title": "Music Ended!",
             "desc": "It looks like im the only one left!\nTo disable me leaving enable 24/7.{{- extraMSG}}",
