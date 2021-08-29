@@ -287,7 +287,7 @@
           },
           "spotifyLoad": {
             "title": "Currently Loading Playlist/Track",
-            "desc": "This can take up to a few seconds depending on how big your playlist is. (Single track will be almost inst).\nGuilds Converter limit: {{limit}}"
+            "desc": "This can take up to a few seconds depending on how big your playlist is. (Single track will be almost inst).\n**This features is in beta and might cause issues please report any bugs**\nGuilds Converter limit: {{limit}}"
           }
         },
         "playing": {
